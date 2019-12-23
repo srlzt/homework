@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,
+html,
+div,
+blockquote,
+img,
+label,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+a,
+fieldset,
+input,
+th,
+td {
+	margin: 0;
+	padding: 0;
+	border: 1;
+	outline: none;
+}
+
+body {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000000;
+	line-height: 30px;
+	text-align: left;
+	background-color: #8dd9e6;
+}
+
+td,
+th {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #000000;
+}
+
+.clearit {
+	clear: both;
+}
+
+A:link {
+	TEXT-DECORATION: none;
+}
+
+A:visited {
+	TEXT-DECORATION: none;
+}
+
+ul,
+li {
+	list-style-type: none;
+	color: #000;
+}
+
+p {
+	line-height: 30px;
+}
+
+.page {
+	width: 1000px;
+	margin: 0 auto;
+	background: rgba(21, 53, 94, 0.6)
+}
+
+.daohang {
+	background-color: #15355e;
+	height: 30px;
+}
+
+.daohang ul li {
+	float: left;
+	width: 200px;
+	text-align: center;
+}
+
+.tu {
+	float: left;
+	width: 323px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.tu p {
+	text-align: center;
+}
+
+.zhong {
+	margin-top: 20px;
+}
+
+.foot {
+	background-color: #15355e;
+	height: 30px;
+	margin-top: 50px;
+}
+
+.foot p {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.zhong1 {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.tupian {
+	width: 475px;
+	float: left;
+}
+
+.l {
+	float: left;
+	width: 280px;
+}
+
+.r {
+	float: right;
+	width: 650px;
+}
+
+.daohang a {
+	color: #FFF;
+}
+
+.zhong a {
+	color: #000;
+}
